@@ -141,7 +141,6 @@
               if(elementInView($(this).first('h1'))) {
                 $('#navbar li.active').removeClass('active');
                 $('.container.container-bottom a[href="#' + $(this).attr('id') + '"]').parent().addClass('active');
-                console.log ( $('.container.container-bottom a[href="#' + $(this).attr('id') + '"]') );
               }
             });
           }, 100));
