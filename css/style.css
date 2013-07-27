@@ -1,0 +1,27 @@
+/* Navigation */
+.navbar {
+	top:10px;
+}
+
+.navbar-inner {
+	filter: alpha(opacity=85);
+	-moz-opacity:0.85;
+	-khtml-opacity:0.85;
+	opacity:0.85;
+}
+
+.navbar-inner .container.container-bottom{
+	height:50px;
+}
+
+.navbar-inner .container.container-top{
+	height:50px;
+	display:none;
+	background-color:yellow;
+}
+
+/* Conteneur principal */
+#main-container {
+	position:relative;
+	top:60px;
+}
